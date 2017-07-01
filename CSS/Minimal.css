@@ -1,0 +1,358 @@
+*{
+    font-family: segoe UI;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+/*HEADER*/
+header{
+    width: 1280px;
+    margin: 0 auto
+}
+
+.container{
+    width: 1031px;
+    height: 62px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+ 
+/*LOGO*/
+.logo{
+    position: absolute;
+}
+
+/*PRIMARY MENU*/
+.primary-menu{
+    position: absolute;
+    right: 20px;
+    top: 40px;
+}
+
+.primary-menu>ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+.primary-menu>ul>li{
+    list-style: none;
+    display: inline-block;
+}
+
+.primary-menu>ul>li>a,samp{
+   text-decoration: none;
+   font-size: 19px;
+   padding: 10px;
+}
+
+.primary-menu>ul>li>a:hover{
+    color: rgb(84,211,195);
+}
+
+.primary-menu>ul>li>a:active{
+    color: rgb(37,157,142);
+}
+/*BANNER*/
+.banner{
+    background-image:url(banner-img.png);
+    width: 1280px;
+    height: 541px;
+    margin: 0 auto;
+    position: relative;
+}
+/*IPHONE IMAGE*/
+.iphone{
+    position: absolute;
+    top: 60px;
+    left: 295px;
+}
+/*EARTH IMAGE*/
+.earth{
+    position: absolute;
+    top: 160px;
+    left: 650px;
+    opacity: 0.5;
+}
+
+.earth_p{
+    font-size: 21px;
+    position: absolute;
+    top: 140px;
+    left: 720px;
+    color: white;
+}
+/*TEXT*/
+.text1{
+    position: absolute;
+    color: white;
+    font-size: 39px;
+    top: 220px;
+    left: 650px;
+}
+
+.text2{
+    font-size: 16px;
+    color: white;
+    top: 297px;
+    left: 655px;
+    position: absolute;
+}
+/*BUY BUTTON*/
+.buy_button1{
+    width: 173px;
+    height: 46px;
+    position: absolute;
+    left: 653px;
+    top: 385px;
+    background-color: rgb(37,157,142)
+}
+
+.buy_button>button{
+    background-color: rgb(84,211,195);
+    color: white;
+    border: 0px;
+    font-size: 21px;
+    width: 75%;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+}
+
+.buy_button>button:active{
+    background-color: rgb(37,157,142)
+}
+
+.buy_button>img{
+    width: 18%;
+    height: 65%;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+/*SECOND MENU*/
+
+.phone1 {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    right: 240px;
+    top: 0px;
+    background-color: rgb(0,170,165);
+}
+
+.phone2 {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: rgb(0,127,132);
+}
+
+.phone3 {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    right: 120px;
+    top: 0px;
+    background-color: rgb(0,140,142);
+}
+
+.second-menu>.phone1>img{
+    margin: 27px;
+}
+
+.second-menu>.phone2>img{
+    margin: 36px 46px;
+}
+
+.second-menu>.phone3>img{
+        margin: 27px 40px;
+}
+
+.second-menu a:active{
+    opacity: 0.5;
+}
+
+/*ABOUT*/
+.about{
+    position: relative;
+    width: 1280px;
+    height: 752px;
+    margin: 0 auto;
+}
+
+
+
+.about_mn {
+    font-size: 41px;
+    color: gray;
+    text-align: center;
+}
+
+.about_text {
+    font-size: 15px;
+    color: gray;
+    text-align: center;
+}
+
+.about>img{
+    position: absolute;
+    left: 446px;
+    top: 212px;
+}
+
+/*SEC3*/
+
+.sec3{
+    position: relative;
+    width: 1280px;
+    height: 700px;
+    margin: 0 auto;
+    background-image: url(sec3.png)
+}
+
+/*MENU3*/
+
+.menu-third {
+    background-color: aqua;
+    width: 1280px;
+    height: 173px;
+    position: absolute;
+}
+
+.menu-third a{
+    height: 173px;
+    position: absolute;
+}
+
+.loop{
+    width: 213px;
+     background-color:rgb(1,100,108);
+}
+
+.offon {
+    left: 210px;
+    width: 213px;
+    background-color:rgb(9,123,132);
+}
+
+.apple {
+    left: 420px;
+    width: 213px;
+   background-color:rgb(17,143,153);
+}
+
+.koch {
+    left: 630px;
+    width: 213px;
+    background-color:rgb(29,160,170);
+}
+
+.zam {
+    left: 840px;
+    width: 213px;
+    background-color:rgb(41,183,194);
+}
+
+.zir {
+    left: 1050px;
+    width: 230px;
+    background-color: rgb(60,202,213)
+}
+
+.menu-third img{
+    margin: 25% 32%;
+}
+
+.menu-third>a:active{
+    opacity: 0.5;
+}
+
+/*LAPTOP IMG*/
+
+.sec3>img{
+    position: absolute;
+    top: 293px;
+    left: 166px;
+}
+
+/*BUY BUTTON2*/
+.buy_button2{
+    width: 173px;
+    height: 46px;
+    position: absolute;
+    left: 729px;
+    top: 441px;
+    background-color: rgb(37,157,142)
+}
+
+/*SEC3 TEXT*/
+
+.sec3_text1{
+    color: white;
+    font-size: 39px;
+    position: absolute;
+    left: 729px;
+    top: 280px;
+}
+
+.sec3_text2{
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    left: 729px;
+    top: 360px;
+}
+
+/*SEC4*/
+
+.sec4{
+    position: relative;
+    margin: 0 auto;
+    width: 1280px;
+    height: 512px;
+}
+
+.sec4 samp{
+    font-size: 200px;
+    color: rgb(73,215,176);
+}
+
+.sec4>p{
+    font-size: 74px;
+    color: rgb(73,215,176);
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    /* padding: 0px; */
+    margin: 0px;
+    left: 190px;
+}
+
+.shape-81{
+    background-color: rgb(73,215,176);
+    width: 500px;
+    height: 512px;
+    position: absolute;
+    right: 0px;
+}
+
+.shape-81>img{
+    margin: 25%;
+}
+
+/*FOOTER*/
+footer{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+footer>p{
+    font-size: 23px;
+    color: gray;
+    text-align: center;
+}
